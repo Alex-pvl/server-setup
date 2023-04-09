@@ -1,4 +1,4 @@
-# $erver $etup
+# Cloud $etup
 Scripts for setting up new VM
 
 ```bash
