@@ -1,0 +1,11 @@
+version: "2.1"
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbit-local
+    ports:
+      - 15672:15672
+      - 5672:5672
+    environment:
+      - RABBITMQ_DEFAULT_USER=api
+      - RABBITMQ_DEFAULT_PASS=api
